@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_drawer_nav_graph"
+    app:startDestination="@id/nav_myGoals">
+
+    <fragment
+        android:id="@+id/nav_myGoals"
+        android:name="com.veyselustuntas.hedefkaptani.view.fragment.UserGoals"
+        android:label="Hedeflerim"
+        tools:layout="@layout/fragment_user_goals" >
+        <action
+            android:id="@+id/action_nav_myGoals_to_userGoalDetail"
+            app:destination="@id/userGoalDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_myProgress"
+        android:name="com.veyselustuntas.hedefkaptani.view.fragment.UserProgress"
+        android:label="İlerlemelerim"
+        tools:layout="@layout/fragment_user_progress" />
+    <fragment
+        android:id="@+id/userGoalDetail"
+        android:name="com.veyselustuntas.hedefkaptani.view.fragment.UserGoalDetail"
+        android:label="Hedef Detayları"
+        tools:layout="@layout/fragment_user_goal_detail">
+        <action
+            android:id="@+id/action_userGoalDetail_to_nav_myGoals"
+            app:destination="@id/nav_myGoals" />
+        <argument
+            android:name="documentId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.veyselustuntas.hedefkaptani.view.fragment.UserNotification"
+        android:label="Bildirimler"
+        tools:layout="@layout/fragment_user_notification" />
+</navigation>

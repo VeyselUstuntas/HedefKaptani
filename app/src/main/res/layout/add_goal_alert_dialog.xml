@@ -1,0 +1,75 @@
+<!-- res/layout/dialog_layout.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/c9">
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goal_alert_dialog_edit_text_background"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:entries="@array/category"/>
+
+    <EditText
+        android:id="@+id/targetNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goal_alert_dialog_edit_text_background"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/c12"
+        android:layout_margin="5dp"
+        android:hint="Hedef Adı"
+        android:maxLines="2"
+        />
+
+    <EditText
+        android:id="@+id/targetDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goal_alert_dialog_edit_text_background"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/c12"
+        android:layout_margin="5dp"
+        android:focusableInTouchMode="false"
+        android:hint="Tarih" />
+
+    <EditText
+        android:id="@+id/targetTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goal_alert_dialog_edit_text_background"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/c12"
+        android:layout_margin="5dp"
+        android:focusableInTouchMode="false"
+        android:hint="Saat"/>
+
+    <Button
+        android:id="@+id/saveTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hedef Ekle"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="26sp"
+        app:cornerRadius ="7dp"
+        android:textColor="@color/c10"
+        android:backgroundTint="@color/c12"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+</LinearLayout>

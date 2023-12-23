@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "650992960620",
+    "project_id": "hedefkaptani-dba57",
+    "storage_bucket": "hedefkaptani-dba57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650992960620:android:28006f172356fc04990449",
+        "android_client_info": {
+          "package_name": "com.veyselustuntas.hedefkaptani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650992960620-e348fobhu2rotp3pal557ec8osm1p7fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veyselustuntas.hedefkaptani",
+            "certificate_hash": "35fc18f4feed4a97a228f808c3a36b104fcca780"
+          }
+        },
+        {
+          "client_id": "650992960620-4evs2bjsvl6miu8kh97orhh31ckpeegn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQy10YsIN4m0nloIceSxoycgnDsh61WeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650992960620-4evs2bjsvl6miu8kh97orhh31ckpeegn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

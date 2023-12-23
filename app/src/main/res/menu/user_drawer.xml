@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/changePassworMenuToolbar"
+        android:title="Şifre Değiştir"
+        app:showAsAction="never"
+         />
+    <item
+        android:id="@+id/updateMyInformationMenuToolbar"
+        android:title="Bilgilerimi Güncelle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logOutAccountMenuToolbar"
+        android:title="Çıkış Yap"
+        app:showAsAction="never"/>
+
+
+</menu>

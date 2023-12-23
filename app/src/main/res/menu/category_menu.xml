@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/category_none"
+        android:title="Yok"/>
+    <item
+        android:id="@+id/category_habit"
+        android:title="Alışkanlık"/>
+    <item
+        android:id="@+id/category_quit"
+        android:title="Bırak"/>
+    <item
+        android:id="@+id/category_celebrate"
+        android:title="Kutla"/>
+    <item
+        android:id="@+id/category_do"
+        android:title="Yap"/>
+</menu>

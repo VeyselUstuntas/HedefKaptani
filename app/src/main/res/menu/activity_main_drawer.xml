@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myGoals"
+            android:icon="@drawable/goal_list"
+            android:title="Hedeflerim"
+            />
+        <item
+            android:id="@+id/nav_myProgress"
+            android:icon="@drawable/progress"
+            android:title="İlerlemeler" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/baseline_notifications_24"
+            android:title="Motivasyon Bildirimleri" />
+    </group>
+</menu>

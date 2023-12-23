@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HedefKaptani" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+    <style name="Theme.HedefKaptani" parent="Base.Theme.HedefKaptani" />
+
+    <style name="Theme.HedefKaptani.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/c9</item>
+    </style>
+
+    <style name="Theme.HedefKaptani.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.HedefKaptani.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

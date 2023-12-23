@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="50dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginTop="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c3"
+        android:orientation="vertical"
+        android:padding="3dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hedef"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:paddingStart="20dp"
+            android:textColor="@color/c1"/>
+
+        <TextView
+            android:id="@+id/goalNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:text="HEDEF ADI GELECEK"
+            android:textColor="@color/c8"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="24sp"
+          />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Başlangıç Tarihi"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:textColor="@color/c1"/>
+
+        <TextView
+            android:id="@+id/goalDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:text="BAŞLANGIÇ TARİHİ GELCEK"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/c8"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="24sp"
+           />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Başlangıç Zamanı"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:textColor="@color/c1"/>
+        <TextView
+            android:id="@+id/goalTimeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="BAŞLANGIÇ ZAMANI GELECEK"
+            android:textColor="@color/c8"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="25dp"
+            android:textSize="24sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
