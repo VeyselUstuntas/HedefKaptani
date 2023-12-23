@@ -1,0 +1,2 @@
+# HedefKaptani
+ Kişisel Asistan Uygulaması
