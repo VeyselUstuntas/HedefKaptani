@@ -84,7 +84,7 @@ class UserDrawer : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_user_drawer)
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_myGoals, R.id.nav_myProgress, R.id.nav_notification
+                R.id.nav_myGoals, R.id.nav_myProgress, R.id.nav_notification,R.id.nav_weather
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

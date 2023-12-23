@@ -17,5 +17,10 @@
             android:id="@+id/nav_notification"
             android:icon="@drawable/baseline_notifications_24"
             android:title="Motivasyon Bildirimleri" />
+
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/weather_icon"
+            android:title="Hava Durumu" />
     </group>
 </menu>

@@ -68,6 +68,22 @@ dependencies {
 
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
 
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+
+    //rxjava
+    implementation "io.reactivex.rxjava2:rxjava:2.1.1"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    //lifecycle-viewModel-liveData
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+
 
 
 }
